@@ -1,0 +1,92 @@
+name: "award_management_system"
+description: "成果奖励管理系统"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  fl_chart: ^0.69.0
+  http: ^1.2.2
+  intl: ^0.19.0
+  adoptive_calendar: ^0.1.8
+  omni_datetime_picker: ^2.0.3
+  path_provider: ^2.1.3
+  http_parser: ^4.0.2
+  mime: ^1.0.5
+  web_socket_channel: ^3.0.1
+
+  bitsdojo_window: ^0.1.6 # 窗口管理
+  sqflite: ^2.3.3+1 # SQLite数据库
+  sqflite_common_ffi: ^2.3.3
+  cached_network_image: ^3.3.1 # 图片加载
+  json_annotation: ^4.9.0 # Json注释
+  build_runner: ^2.4.11
+  json_serializable: ^6.8.0 # Json序列化 flutter pub run build_runner build
+  flutter_adaptive_scaffold: ^0.1.11+1 # 自适应布局
+  ffi: ^2.1.2
+  win32: ^5.5.3
+  flutter_svg: ^2.0.10+1
+  geolocator: ^13.0.1
+  shared_preferences: ^2.3.2
+  cherrilog: ^0.2.0
+  crypto: ^3.0.5
+  gbk_codec: ^0.4.0
+  flutter_icon_snackbar: ^1.1.7
+  multi_progress_bar: ^0.1.9
+  file_picker: ^8.1.2
+  blurrycontainer: ^2.1.0
+  pluto_grid_plus: ^8.4.1
+  material_table_view: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: NotoSansSC
+      fonts:
+        - asset: assets/fonts/NotoSansSC-Medium.ttf
+          weight: 800
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 800
+
+    - family: Mono
+      fonts:
+        - asset: assets/fonts/JetBrainsMono-Medium.ttf
+          weight: 800
+
+    - family: ALiPuHui
+      fonts:
+        - asset: assets/fonts/AlibabaPuHuiTi-3-35-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/AlibabaPuHuiTi-3-65-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/AlibabaPuHuiTi-3-115-Black.ttf
+          weight: 900
+
+    - family: ALiMaMaShuHei
+      fonts:
+        - asset: assets/fonts/AlimamaShuHeiTi-Bold.ttf
+          weight: 500
+
+  assets:
+    - assets/images/icon/icon_comprehensive_quality_competition.png
+    - assets/images/icon/icon_scientific_research_competition.png
+    - assets/images/icon/icon_skill_certification.png
+    - assets/images/icon/icon_comprehensive_reward.png
